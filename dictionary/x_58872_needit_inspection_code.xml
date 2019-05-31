@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inspection Code" max_length="40" name="x_58872_needit_inspection_code" type="collection">
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Code" mandatory="true" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+    </element>
+</database>
